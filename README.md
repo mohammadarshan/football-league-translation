@@ -23,8 +23,11 @@ This repository contains the code and results for the paper:
 ## Data
 
 The model uses FBref per-90 player statistics sourced from the Kaggle dataset:  
-**"Football Player Stats 2017–2024"** by Akshan Krithick  
-Available at: [https://www.kaggle.com/datasets/akshayk2810/football-player-stats](https://www.kaggle.com/datasets/akshayk2810/football-player-stats)
+**"FBRef 2017–2024 (Top Five Leagues)"** by Akshan Krithick  
+Available at: [https://www.kaggle.com/datasets/akshankrithick/fbref-2017-2024-for-europes-top-5-leagues](https://www.kaggle.com/datasets/akshankrithick/fbref-2017-2024-for-europes-top-5-leagues)
+**"Football Player Stats 2024–2025"** by Hubert Sidorowicz
+Available at: [https://www.kaggle.com/datasets/hubertsidorowicz/football-players-stats-2024-2025](https://www.kaggle.com/datasets/hubertsidorowicz/football-players-stats-2024-2025)
+
 
 Download the dataset and place the CSV files in a directory accessible to the notebooks. Update the data path variable at the top of each notebook accordingly.
 
