@@ -1,5 +1,4 @@
 # Hierarchical Bayesian Football League Translation (HBFLT)
-
 This repository contains the code and results for the paper:  
 **"A Hierarchical Bayesian Framework for Cross-League Player Performance Translation in Football"**  
 *(Submitted to the Journal of Sports Analytics)*
@@ -7,7 +6,6 @@ This repository contains the code and results for the paper:
 ---
 
 ## Repository Structure
-
 ```
 ├── Code/
 │   ├── HBFLT.ipynb        # Main modeling notebook (hierarchical Bayesian model, validation, figures)
@@ -21,16 +19,14 @@ This repository contains the code and results for the paper:
 ---
 
 ## Data
-
 The model uses FBref per-90 player statistics sourced from the Kaggle dataset:  
 **"FBRef 2017–2024 (Top Five Leagues)"** by Akshan Krithick  
 Available at: [https://www.kaggle.com/datasets/akshankrithick/fbref-2017-2024-for-europes-top-5-leagues](https://www.kaggle.com/datasets/akshankrithick/fbref-2017-2024-for-europes-top-5-leagues)
 
-**"Football Player Stats 2024–2025"** by Hubert Sidorowicz
+**"Football Player Stats 2024–2025"** by Hubert Sidorowicz  
 Available at: [https://www.kaggle.com/datasets/hubertsidorowicz/football-players-stats-2024-2025](https://www.kaggle.com/datasets/hubertsidorowicz/football-players-stats-2024-2025)
 
-
-Download the dataset and place the CSV files in a directory accessible to the notebooks. Update the data path variable at the top of each notebook accordingly.
+Download the datasets and place the CSV files in a directory accessible to the notebooks. Update the data path variable at the top of each notebook accordingly.
 
 ---
 
@@ -67,19 +63,10 @@ Run after the EDA. Covers:
 
 ## Dependencies
 
-The following Python libraries are required:
+All required libraries and their exact versions are listed in `requirements.txt`. Install with:
 
-```
-pymc
-arviz
-numpy
-pandas
-scipy
-scikit-learn
-matplotlib
-seaborn
-jax
-jaxlib
+```bash
+pip install -r requirements.txt
 ```
 
 The notebooks were developed and run on Google Colab with GPU acceleration. It is recommended to use a GPU runtime to reproduce results within the expected runtime.
@@ -88,7 +75,7 @@ The notebooks were developed and run on Google Colab with GPU acceleration. It i
 
 ## Reproducibility
 
-All random seeds are fixed (seed = 42). Results in `results/output.pdf` and `results/outputeda.pdf` were generated from the notebooks as provided and reflect the exact outputs reported in the paper.
+All random seeds are fixed (seed = 42). Results in `Results/output.pdf` and `Results/outputeda.pdf` were generated from the notebooks as provided and reflect the exact outputs reported in the paper.
 
 ---
 
