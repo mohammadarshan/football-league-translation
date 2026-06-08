@@ -12,7 +12,7 @@ This repository contains the code and results for the paper:
 ├── Code/
 │   ├── HBFLT.ipynb        # Main modeling notebook (hierarchical Bayesian model, validation, figures)
 │   └── HBFLTEDA.ipynb     # Exploratory data analysis notebook
-├── Results/
+├── results/
 │   ├── output.pdf         # Full output of HBFLT.ipynb (model results, figures, validation tables)
 │   └── outputeda.pdf      # Full output of HBFLTEDA.ipynb (EDA results and diagnostics)
 └── README.md
