@@ -9,10 +9,10 @@ This repository contains the code and results for the paper:
 ## Repository Structure
 
 ```
-├── code/
+├── Code/
 │   ├── HBFLT.ipynb        # Main modeling notebook (hierarchical Bayesian model, validation, figures)
 │   └── HBFLTEDA.ipynb     # Exploratory data analysis notebook
-├── results/
+├── Results/
 │   ├── output.pdf         # Full output of HBFLT.ipynb (model results, figures, validation tables)
 │   └── outputeda.pdf      # Full output of HBFLTEDA.ipynb (EDA results and diagnostics)
 └── README.md
@@ -41,7 +41,7 @@ Run this first. Covers:
 - Outlier diagnostics
 - Inter-statistic correlation matrices
 
-**Expected runtime:** ~10–15 minutes  
+**Expected runtime:** ~2–5 minutes  
 
 > **Note:** The EDA bridge includes only transfers from the four major European feeder leagues (La Liga, Bundesliga, Serie A, Ligue 1) to the Premier League. It does not include within-Premier League transfers. The main modeling notebook additionally includes Premier League-to-Premier League transfers in the training bridge as the baseline reference group for league association parameters, yielding higher training bridge counts (174 ATT+MID, 106 DEF) than those reported in the EDA.
 
